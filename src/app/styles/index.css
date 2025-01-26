@@ -4,13 +4,8 @@
   scroll-behavior: smooth;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   margin: 0;
-  height: 100%;
   padding: 0.1px;
   background: #0D2A3F; /*#1B537F*/
 }
