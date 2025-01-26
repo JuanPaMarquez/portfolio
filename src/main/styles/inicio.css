@@ -208,8 +208,7 @@ main {
 #contacts {
   margin: 0;
   padding-bottom: 12rem;
-  background-color: #0D2A3F;
-  
+  background-color: #0D2A3F;  
 }
 
 #contacts .espacio-con {
@@ -222,8 +221,8 @@ main {
   text-align: center;
   color: #ffffff;
   padding: 0;
-  margin: 10rem auto 0 auto;
-  font-size: 3rem;
+  margin: 40px auto 0 auto;
+  font-size: 40px;
 }
 
 #contacts p {
@@ -314,7 +313,7 @@ button:hover {
 
 @media (max-width: 900px) {
   #contacts h2 {
-      font-size: 2rem;
+      /* font-size: 2rem; */
   }
 
   #contacts p {
@@ -323,6 +322,7 @@ button:hover {
   }
 
   .links {
+      margin: 16px 0px;
       flex-direction: column;
   }
 }
@@ -348,11 +348,11 @@ button:hover {
   }
 
   #contacts h2 {
-      margin: 3px;
+      /* margin: 3px; */
   }
 
   #contacts {
-      padding: 0;
+      /* padding: 1px; */
   }
 }
 
@@ -388,4 +388,6 @@ button:hover {
   #welcome-section {
       margin: 2px;
   }
+
+
 }
