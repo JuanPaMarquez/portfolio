@@ -1,4 +1,4 @@
-import { tech } from "./tech"
+import { tech } from "../utils/techIcons"
 
 interface Proyecto {
   id: number,
@@ -13,7 +13,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 2,
     titulo: "Modelo de Prediccion Academica",
-    img: "./imgProjects/mpa.webp",
+    img: "./images-projects/mpa.webp",
     link: "https://juanpamarquez.github.io/mpa-proyect/",
     info: [
       tech.react,
@@ -27,7 +27,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 3,
     titulo: "App-Security",
-    img: "./imgProjects/security.webp",
+    img: "./images-projects/security.webp",
     link: "https://juanpamarquez.github.io/app-segurity/",
     info: [
       tech.electron,
@@ -39,7 +39,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 1,
     titulo: "Buscar Peliculas",
-    img: "./imgProjects/movies.webp",
+    img: "./images-projects/movies.webp",
     link: "https://juanpamarquez.github.io/buscador-peliculas/",
     info: [
       tech.react,
@@ -52,7 +52,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 4,
     titulo: "Genlist Desktop App",
-    img: "./imgProjects/genlist.webp",
+    img: "./images-projects/genlist.webp",
     link: "https://juanpamarquez.github.io/genlist-website/",
     info: [
       tech.python,
@@ -64,7 +64,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 5,
     titulo: "Documentacion",
-    img: "./imgProjects/docu.webp",
+    img: "./images-projects/docu.webp",
     link: "https://juanpamarquez.github.io/-13--Cuestionario-3/",
     info: [
       tech.html,
@@ -76,7 +76,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 7,
     titulo: "Learn CSS",
-    img: "./imgProjects/learn.webp",
+    img: "./images-projects/learn.webp",
     link: "https://juanpamarquez.github.io/-16--Cuestionario-4/",
     info: [
       tech.html,
@@ -88,7 +88,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 8,
     titulo: "En Memoria",
-    img: "./imgProjects/martin.webp",
+    img: "./images-projects/martin.webp",
     link: "https://juanpamarquez.github.io/-9--Cuestionario-2/",
     info: [
       tech.html,
@@ -99,7 +99,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 9,
     titulo: "Gato creado con solo CSS",
-    img: "./imgProjects/gato.webp",
+    img: "./images-projects/gato.webp",
     link: "https://juanpamarquez.github.io/-11--Gato/",
     info: [
       tech.html,
@@ -110,7 +110,7 @@ export const proyectos: Array<Proyecto> = [
   {
     id: 10,
     titulo: "Pinguino creado con solo CSS",
-    img: "./imgProjects/pingu.webp",
+    img: "./images-projects/pingu.webp",
     link: "https://juanpamarquez.github.io/-18--Pinguino/",
     info: [
       tech.html,

@@ -1,4 +1,4 @@
-import { redes } from "../../utils/redes";
+import { redes } from "../../lib/redes";
 
 function Social() {
 

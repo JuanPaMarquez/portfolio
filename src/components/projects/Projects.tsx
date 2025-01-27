@@ -1,4 +1,4 @@
-import { proyectos } from "../../utils/proyectos";
+import { proyectos } from "../../lib/proyectos";
 
 function Projects() {
   
@@ -17,9 +17,11 @@ function Projects() {
                     <div className="info-project">
                       <h3>{proyecto.titulo}</h3>
                       <div className="tecnologias">
-                        {proyecto.info.map((icon) => {
+                        {proyecto.info.map((icon, index) => {
                           return (
-                            icon
+                            <div key={index}>
+                              {icon}
+                            </div>
                           )
                         })}
                       </div>
