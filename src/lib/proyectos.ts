@@ -1,5 +1,4 @@
 import { tech } from "../utils/techIcons"
-
 interface Proyecto {
   id: number,
   titulo: string,
