@@ -25,7 +25,7 @@ export const proyectos: Array<Proyecto> = [
   },
   {
     id: 11,
-    titulo: "App-Security",
+    titulo: "Links de Ayuda",
     img: "./images-projects/links.webp",
     link: "https://juanpamarquez.github.io/links/",
     info: [
