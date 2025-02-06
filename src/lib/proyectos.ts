@@ -24,6 +24,18 @@ export const proyectos: Array<Proyecto> = [
     github: "https://github.com/JuanPaMarquez/mpa-proyect/"
   },
   {
+    id: 11,
+    titulo: "App-Security",
+    img: "./images-projects/links.webp",
+    link: "https://juanpamarquez.github.io/links/",
+    info: [
+      tech.react,
+      tech.ts,
+      tech.tailwindcss
+    ],
+    github: "https://github.com/JuanPaMarquez/links/"
+  },
+  {
     id: 3,
     titulo: "App-Security",
     img: "./images-projects/security.webp",
