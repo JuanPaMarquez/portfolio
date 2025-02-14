@@ -1,12 +1,25 @@
-import { proyectos } from "../../lib/proyectos";
+import Tecnologia from "./Tecnologia";
+import useProjects from "./useProjects";
 
 function Projects() {
+  const { proyectos, tecnologias, filterProjects } = useProjects();
   
   return (
     <>
       <section id="projects">
         <div className="espacio"></div>
         <h2>PROYECTOS:</h2>
+        <div className="tech-select">
+          {
+            tecnologias.map((icon, index) => {
+              return (
+                <Tecnologia index={index} filterProjects={filterProjects} element={icon[1]}>
+                  {icon[1]}
+                </Tecnologia>
+              )
+            })
+          }
+        </div>
         <div className="contenedor">
           {
             proyectos.map(proyecto => {
